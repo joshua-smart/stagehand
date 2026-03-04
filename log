@@ -1,0 +1,16 @@
+[2m2025-12-30T20:38:46.568135Z[0m [35mTRACE[0m [2mstagehand[0m[2m:[0m loading show [3mshowfile[0m[2m=[0mNone
+[2m2025-12-30T20:38:46.568222Z[0m [35mTRACE[0m [2mstagehand[0m[2m:[0m loaded show [3mshow[0m[2m=[0mShow { universes: {Universe(1), Universe(2), Universe(3)}, output: Output { address: 127.0.0.1 }, runtime: Runtime { showfile: None, set_addresses: {}, logs: None } }
+[2m2025-12-30T20:38:46.568277Z[0m [35mTRACE[0m [2mstagehand[0m[2m:[0m starting stagehand thread
+[2m2025-12-30T20:38:46.568394Z[0m [35mTRACE[0m [2mstagehand[0m[2m:[0m starting tui thread
+[2m2025-12-30T20:38:46.568472Z[0m [35mTRACE[0m [2mstagehand[0m[2m:[0m starting sacn thread
+[2m2025-12-30T20:38:46.677389Z[0m [35mTRACE[0m [2mmio::poll[0m[2m:[0m registering event source with poller: token=Token(0), interests=READABLE
+[2m2025-12-30T20:38:46.677491Z[0m [35mTRACE[0m [2mmio::poll[0m[2m:[0m registering event source with poller: token=Token(1), interests=READABLE
+[2m2025-12-30T20:39:05.310165Z[0m [32m INFO[0m [2mstagehand::controller[0m[2m:[0m recieved [3mcommand[0m[2m=[0mSetAddress { address_set: Range(AddressRange { universe: Universe(1), start: Index(1), end: Index(100), step: Some(2) }), level_set: Single(Level(255)) }
+[2m2025-12-30T20:39:39.959048Z[0m [32m INFO[0m [2mstagehand::controller[0m[2m:[0m recieved [3mcommand[0m[2m=[0mSetAddress { address_set: Range(AddressRange { universe: Universe(1), start: Index(1), end: Index(100), step: Some(2) }), level_set: Range(LevelRange { start: Level(26), end: Level(230) }) }
+[2m2025-12-30T20:54:26.935334Z[0m [32m INFO[0m [2mstagehand::controller[0m[2m:[0m recieved [3mcommand[0m[2m=[0mClearAddress { address_set: Range(AddressRange { universe: Universe(1), start: Index(1), end: Index(10), step: None }) }
+[2m2025-12-30T20:54:29.151765Z[0m [32m INFO[0m [2mstagehand::controller[0m[2m:[0m recieved [3mcommand[0m[2m=[0mClearAddress { address_set: Range(AddressRange { universe: Universe(1), start: Index(1), end: Index(512), step: None }) }
+[2m2025-12-30T20:55:15.765702Z[0m [32m INFO[0m [2mstagehand::controller[0m[2m:[0m recieved [3mcommand[0m[2m=[0mQuit
+[2m2025-12-30T20:55:15.765773Z[0m [35mTRACE[0m [2mstagehand[0m[2m:[0m stagehand thread exiting
+[2m2025-12-30T20:55:15.765960Z[0m [35mTRACE[0m [2mstagehand[0m[2m:[0m tui thread exiting
+[2m2025-12-30T20:55:16.657643Z[0m [35mTRACE[0m [2mstagehand[0m[2m:[0m sacn thread exiting
+[2m2025-12-30T20:55:16.657865Z[0m [35mTRACE[0m [2mstagehand[0m[2m:[0m exited successfully
